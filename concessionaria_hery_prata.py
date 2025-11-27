@@ -16,20 +16,22 @@ tabela_precos = {
 "Panamera": 1500000.0,
 "X6": 1000000.0,
 "Sennna": 3000000.0,
+"Chiron": 4000000.0
 }
 
 #lista de tuplas
 carros_aluguel = [
 ("Ferrari", "F40"),
 ("Mclaren", "Senna"),
+("Bugatti", "Chiron")
 ]
 
 carros_vendas = [
 ("F40", "Ferrari"),
 ("Panamera","Porche"),
 ("X6","Bmw"),
-("Senna","Mclaren")
-
+("Senna","Mclaren"),
+("Chiron","Bugatti")
 ]
 
 #Copia e cola: veículo, Automóveis, Você, Disponíveis.
@@ -168,3 +170,4 @@ while True:
             break
         case _:
             print("Opção invalida. Tente novamente.")
+
